@@ -1,0 +1,16 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Lugrasimo&family=Tektur:wght@400;500;600;700;800;900&display=swap');
+
+  .p-fonts{
+    font-family: 'Lugrasimo', cursive;
+    font-size: 2rem;
+  }
+
+  h1{
+    text-decoration: underline;
+  }
+
+  ul li a{
+    text-decoration: none;
+  }
+  

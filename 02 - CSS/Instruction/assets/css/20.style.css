@@ -1,0 +1,38 @@
+body{
+    font-family: 'Lilita One', cursive;
+}
+a{
+    text-decoration: none;
+    color:black;
+    font-weight: 400;
+
+
+}
+nav.menu{
+    background-color: aquamarine;
+}
+
+nav.menu ul{
+    list-style-type: "⚙️";
+    list-style-position: inside;
+    padding: 0;
+}
+
+nav.menu ul a{
+padding: 5px;
+}
+
+nav.menu ul a:hover{
+    color: #B72436;
+    background-color: rgb(127, 148, 255);
+}
+
+nav.menu ul li{
+    margin-bottom: 1rem;
+}
+
+
+h2,h3{
+    text-transform: uppercase;
+    text-align: center;
+}

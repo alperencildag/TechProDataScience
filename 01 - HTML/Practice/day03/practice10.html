@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice 10</title>
+  </head>
+  <body>
+    <h1>MY RESUME</h1>
+    <form action="">
+      <table>
+        <tr>
+          <td>
+            <table>
+              <tr>
+                <td><label for="isim">Adı</label></td>
+                <td><input type="text" name="isim" id="isim" /></td>
+              </tr>
+              <tr>
+                <td><label for="soyadi">Soyadı</label></td>
+                <td><input type="text" name="soyadi" id="soyadi" /></td>
+              </tr>
+              <tr>
+                <td>Cinsiyet</td>
+                <td>
+                  <input type="radio" name="cinsiyet" id="erkek" />
+                  <label for="erkek">Erkek</label>
+                  <input type="radio" name="cinsiyet" id="kadin" />
+                  <label for="kadin">Kadın</label>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="dyeri">Doğum Yeri</label></td>
+                <td>
+                  <select name="dyeri" id="dyeri">
+                    <option disabled selected>Seçiminiz</option>
+                    <option value="34">İstanbul</option>
+                    <option value="6">Ankara</option>
+                    <option value="35">İzmir</option>
+                  </select>
+                </td>
+              </tr>
+              <tr>
+                <td><label for="email">E-Posta</label></td>
+                <td>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="abc@techproed.com"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="linkedin">LinkedIn</label></td>
+                <td><input type="text" name="linkedin" id="linkedin" /></td>
+              </tr>
+              <tr>
+                <td><label for="tel">Telefon</label></td>
+                <td><input type="tel" name="tel" id="tel"></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><input type="submit" value="Gönder"></td>
+              </tr>
+            </table>
+          </td>
+          <td>
+            <table>
+              <tr>
+                <td>Programlama <br />Dilleri</td>
+                <td>
+                  <input type="checkbox" name="python" id="python" />
+                  <label for="python">Python</label><br />
+
+                  <input type="checkbox" name="java" id="java" />
+                  <label for="java">Java</label><br />
+
+                  <input type="checkbox" name="javascript" id="javascript" />
+                  <label for="javascript">JavaScript</label><br />
+
+                  <input type="checkbox" name="php" id="php" />
+                  <label for="php">PHP</label>
+                </td>
+              </tr>
+              <tr>
+                <td>Resume Yükle</td>
+                <td><input type="file" name="resume" id="resume"></td>
+              </tr>
+              <tr>
+                <td>Başvuru Tarihi</td>
+                <td><input type="date" name="btarih" id="btarih"></td>
+              </tr>
+              <tr>
+                <td><label for="adres">Adres</label></td>
+                <td><textarea name="adres" id="adres" cols="22" rows="10"></textarea></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
