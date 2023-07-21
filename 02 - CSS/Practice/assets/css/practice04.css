@@ -1,0 +1,41 @@
+.container {
+    width: 50%;
+    background-color: lightgray;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: red;
+    /* padding:1rem 0 0 1rem; */
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.container p {
+    color: rgb(93, 86, 86);
+    font-size: 1.1rem;
+    padding: 0 1rem;
+}
+
+.container .menu a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    margin: 1rem;
+}
+
+.container .menu a:hover {
+    color: red;
+}
+
+.menu {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}

@@ -1,0 +1,15 @@
+.container{
+    width: 50%;
+    background-color: aqua;
+}
+h1,h2{
+    color:red;
+    text-align: center;
+    background-color: yellow;
+}
+span{
+    color:red;
+}
+p{
+    font-size: 1.2rem;
+}
