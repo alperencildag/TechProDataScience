@@ -1,0 +1,50 @@
+body{
+    background-image: url("../img/more-leaves.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav.menu {
+    background-color: #ff9f7f;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+nav.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+}
+
+nav.menu a:hover {
+    color: red;
+}
+
+.baslik1, .baslik2 {
+    width: 40%;
+    background-color: #ffe4c4;
+}
+
+.baslik1 h2, .baslik2 h2 {
+    background-color: #8a2be2;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.baslik1 p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
+}
+.baslik2 li {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    list-style-type: '❤️ ';
+}

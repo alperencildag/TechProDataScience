@@ -1,0 +1,21 @@
+nav.menu {
+    text-align: center;
+}
+nav.menu li{
+    display: inline-block;
+}
+nav.menu li a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    background-image: linear-gradient(45deg,rgb(238, 87, 87),rgb(16, 92, 16));
+    padding:15px;
+    margin-right: 1rem;
+    margin-top: 5px;
+    display: inline-block;
+}
+footer div ul{
+    list-style-type: none;
+}
+footer div ul li{
+    margin-bottom: 10px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: url("../img/resim2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1.baslik{
+    text-align: center;
+    font-size: 3rem;
+    background-color: azure;
+    margin-top: 0;
+
+}
+.aylar{
+    background-color: #c187de;
+    width: 20%;
+    padding-bottom: 0.3rem;
+    margin-left: 2rem;
+}
+.aylar h2{
+    background-color: azure;
+    text-align: center;
+}
+.mevsimler {
+    background-color:#dbde87;
+    width: 20%;
+    padding-bottom: 0.3rem;
+    margin-left: 2rem;
+}
+.mevsimler h2 {
+    background-color: azure;
+    text-align: center;
+}
+.gunler {
+    background-color:#87ded2;
+    width: 20%;
+    padding-bottom: 0.3rem;
+    margin-left: 2rem;
+}
+.gunler h2 {
+    background-color: azure;
+    text-align: center;
+}

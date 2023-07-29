@@ -1,0 +1,29 @@
+.container{
+    width: 250px;
+    background-color: brown;
+    text-align: center;
+}
+.container div{
+    padding: .8rem;
+}
+.container div a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.aktif{
+    background-color: blue;
+}
+
+.container div:hover{
+    background-color: burlywood;
+}
+.container div:hover a{
+    color:black;
+}
+
+.container div.aktif a{
+    color: black;
+}
+
+
