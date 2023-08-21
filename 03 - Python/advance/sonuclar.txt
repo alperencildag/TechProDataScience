@@ -1,0 +1,4 @@
+ahmet güneş: ortalaması: 81.67 harf notu: BB
+mehmet kara: ortalaması: 79.0 harf notu: CB
+pelin tura: ortalaması: 83.33 harf notu: BB
+ayşe hayat: ortalaması: 86.33 harf notu: BA

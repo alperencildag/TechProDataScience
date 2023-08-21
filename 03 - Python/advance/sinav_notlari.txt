@@ -1,0 +1,4 @@
+ahmet güneş:80,75,90
+mehmet kara:78,96,63
+pelin tura:88,77,85
+ayşe hayat:89,73,97
